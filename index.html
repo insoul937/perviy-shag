@@ -8,12 +8,15 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/owl.carousel.min.css" rel="stylesheet">
+    <link href="css/jkit.css" rel="stylesheet">
     <link href="css/style.min.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.jkit.1.2.16.min.js"></script>
     <script src="js/scripts.js"></script>
 
 
@@ -49,19 +52,20 @@
     <div class="top-container">
       <div class="container">
         <div class="row">
-          <div class="offset-sm-2 col-8">
+          <div class="offset-sm-2 col-sm-8">
             <h1 class="text-center">Журнал о детях
               для родителей</h1>
 
           </div>
         </div><!--row-->
-        <img src="images/top-img.png" alt="" class="img-fluid" />
+        <div class="par" data-jkit="[parallax:strength=1;axis=y;detect=scroll]"><img src="images/top-img.png" alt="" class="img-fluid" /></div>
+
       </div><!--container-->
     </div><!--top-container-->
     <div class="container">
       <div class="about-us">
         <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 d-none d-sm-block">
             <div class="au-img text-center">
               <img src="images/b1.png" alt="" class="img-gluid">
               <div class="au-b-title">Читайте «Первый шаг»</div>
@@ -69,7 +73,12 @@
             </div>
           </div>
           <div class="col-sm-8">
-            <div class="au-title">О чем наш журнал?</div>
+            <div class="au-title mb-20px">О чем наш журнал?</div>
+            <div class="au-img text-center d-block d-sm-none">
+              <img src="images/b1.png" alt="" class="img-fluid">
+              <div class="au-b-title">Читайте «Первый шаг»</div>
+              <div class="au-info">№3 | Май 2019</div>
+            </div>
             <p>Дошкольный мир — это первый в Узбекистане медиапроект, помогающий родителям и воспитателям дошкольных образовательных учреждений в вопросах развития, воспитания и психологии детей до 6 лет. Надежный экспертный источник, все статьи подкреплены консультациями экспертов.</p>
             <div class="row">
               <div class="col-sm-8">
@@ -88,6 +97,64 @@
         </div><!--row-->
       </div><!--about-us-->
     </div><!--container-->
+    <div class="theme-main">
+      <div class="container">
+        <div class="text-center">
+          <div class="main-title">темы в журнале</div>
+          <div class="theme-block">
+            <div class="tb1 tb">
+              <div class="tb-t">Здоровье</div>
+              <div class="tb-abs">
+                <img src="images/t1.png" alt="" />
+              </div>
+            </div><!--tb1-->
+            <div class="tb2 tb">
+              <div class="tb-t">Еда</div>
+              <div class="tb-abs">
+                <img src="images/t2.png" alt="" />
+              </div>
+            </div><!--tb1-->
+            <div class="tb3 tb">
+              <div class="tb-t">Психология</div>
+              <div class="tb-abs">
+                <img src="images/t3.png" alt="" />
+              </div>
+            </div><!--tb1-->
+            <div class="tb4 tb">
+              <div class="tb-t">Дошкольное <br/> Образование</div>
+              <div class="tb-abs">
+                <img src="images/t4.png" alt="" />
+              </div>
+            </div><!--tb1-->
+            <div class="tb5 tb">
+              <div class="tb-t">Одежда</div>
+              <div class="tb-abs">
+                <img src="images/t5.png" alt="" />
+              </div>
+            </div><!--tb1-->
+            <div class="tb6 tb">
+              <div class="tb-t">Развитие</div>
+              <div class="tb-abs">
+                <img src="images/t6.png" alt="" />
+              </div>
+            </div><!--tb1-->
+            <div class="tb7 tb">
+              <div class="tb-t">Развлечение</div>
+              <div class="tb-abs">
+                <img src="images/t7.png" alt="" />
+              </div>
+          </div><!--tb1-->
+
+            <div class="row">
+              <div class="offset-sm-2 col-sm-8">
+                <div class="tb-img"><img src="images/theme-main.png" alt="" class="img-fluid" /></div>
+              </div>
+            </div><!--row-->
+
+          </div><!--theme-block-->
+        </div>
+      </div><!--container-->
+    </div><!--theme-main-->
     <div class="themes-info">
       <div class="container">
         <div class="row">

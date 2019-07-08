@@ -1,0 +1,66 @@
+@media(max-width: 1440px){
+    .form-container:before,.form-container:after{
+        display: none;
+    }
+    .tb-img img{
+        max-width: 70%;
+    }
+    .tb1{
+        left: 14%;
+    }
+    .tb-t{
+        font-size: 25px;
+    }
+    .tb2{
+        left: 26%;
+    }
+    .tb3{
+        left: 22%;
+    }
+    .tb4{
+        left: 43%;
+    }
+    .tb5{
+        right: 27%;
+    }
+    .tb6{
+        top: 34px;
+        right: 24%;
+    }
+    .tb7{
+        top: 142px;
+        right: 13%;
+    }
+}
+@media(max-width: 767px){
+    .top-container .h1, .top-container h1{
+        text-align: center;
+        font-size: 32px;
+    }
+    .top-container img{
+        max-width: 232vw;
+        height: auto;
+        margin-left: -68vw;
+    }
+    .au-title{
+        font-size: 32px;
+        text-align: center;
+    }
+    .au-info{
+        margin-bottom: 20px;
+    }
+    .about-us p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .min-left{
+        text-align: center;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .min-right{
+        padding: 0 10px;
+    }
+
+}
