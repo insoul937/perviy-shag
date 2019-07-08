@@ -1,6 +1,15 @@
 var $ = jQuery;
 $(document).ready(function(){
-    $('body').jKit();
+    $('.theme-carousel').owlCarousel({
+        items: 1,
+        smartSpeed: 800,
+        nav: true,
+        navText: ['<i class="fa fa-chevron-left" aria-hidden="true"></i>','<i class="fa fa-chevron-right" aria-hidden="true"></i>'],
+        dots: false,
+        autoplay: false,
+        loop: true,
+        responsiveRefreshRate: 1,
+    });
     $( ".tb .tb-t" )
         .hover(
             function() {

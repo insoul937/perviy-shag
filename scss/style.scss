@@ -277,10 +277,7 @@ ul.list-unstyled{
   &:hover, &:focus {
     text-decoration: none;
     color: #fff;
-    background: #41af92;
-    -webkit-box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.62);
-    -moz-box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.62);
-    box-shadow: inset 0px 0px 35px 0px rgba(0,0,0,0.62);
+    background: #e85f5b;
   }
 }
 .btn-primary{
@@ -532,9 +529,8 @@ ul.list-unstyled{
   @include bg(bg,jpg,top center,no-repeat);
   background-size: cover;
   padding: 60px 0 0;
-  min-height: 600px;
   position: relative;
-  overflow: hidden;
+
   h1,.h1{
     @include font2(400,68px);
     color:$blue;
@@ -754,5 +750,23 @@ textarea{
     left: 50%;
     @extend %left-50;
     top:98px;
+  }
+}
+.theme-carousel{
+  padding: 0 30px;
+  text-align: center;
+  position: relative;
+  .owl-prev,.owl-next{
+    color:#fac148;
+    position: absolute;
+    font-size: 40px;
+    top:15%;
+    @extend %top-50;
+  }
+  .owl-prev{
+    left:-10px;
+  }
+  .owl-next{
+    right:-10px;
   }
 }
