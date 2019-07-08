@@ -576,6 +576,7 @@ ul.list-unstyled{
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e6e8e9',GradientType=0 );
   padding: 50px 50px 70px;
   border-radius: 20px;
+  z-index: 2;
   &:before{
     content: '';
     @include bg(l,png,0 0,no-repeat);
